@@ -4,8 +4,6 @@ Philippine Public Accountability Graph. Cross-references four government databas
 
 ![Paper Trail PH demo](media/papertrail-demo.gif)
 
-See [INSIGHTS.md](INSIGHTS.md) for the full analysis and findings.
-
 ## What This Does
 
 Philippine government procurement, audit, and election data are published across separate systems that don't talk to each other. A company winning a contract, its owner being related to the mayor, and COA flagging the concentration — these are three separate records in three separate databases. Nobody sees the connection unless they manually cross-reference everything.
@@ -229,7 +227,6 @@ paper-trail-ph/
 ├── cypher/                  # Neo4j schema and data
 │   ├── schema.cypher       # Constraints and indexes
 │   └── seed.cypher         # Initial graph data
-├── INSIGHTS.md              # Full analysis findings with methodology
 └── docker-compose.yml       # Neo4j container
 ```
 
